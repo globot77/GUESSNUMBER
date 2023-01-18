@@ -1,6 +1,6 @@
 /* alert("VAMOS JOGA BY LSO") */
 
-const form = document.getElementById('form');
+const form = document.querySelector('form')
 form.addEventListener('submit', handleSubmit);
 
 let status = document.getElementById('status');

@@ -7,7 +7,7 @@
     <title> Guess Number</title>
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/index.js"></script>
+    <script src="js/index.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
@@ -31,7 +31,7 @@
             <div class="col">
                 <div class="card">
                     <div class="card-body">
-                <form >
+                <form>
                     <label for="kick">Digite um Número entre 0 e 10 : </label>
                     <input class="form-control" type="number" id="kick" max="10" min="0" placeholder ="0">
                     <button type="submit" class="btn btn-primary"> Jogar!</button>           
@@ -45,7 +45,7 @@
      
     </section>
 
-    <button id="BtnRestart" > Jogar novamente</button>
+    <button id="BtnRestart" onclick=restart() > Jogar novamente</button>
                 </div>
             </div>
             </div>
